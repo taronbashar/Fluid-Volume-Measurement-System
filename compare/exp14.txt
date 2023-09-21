@@ -1,0 +1,70 @@
+ ---------- Running Experiment 14 ---------- 
+
+ - Black Slides
+Best tag for pixelcount t=5 with lowest error: 2357.400676907035
+Best tag for convexhull t=45 with lowest error: 976.6410854056369
+Best tag for maxheight t=10 with lowest error: 223.6112424192071
+Best tag for pixelcount t=5 with lowest error: 3444.9599472611912
+Best tag for convexhull t=45 with lowest error: 2224.9159656172615
+Best tag for maxheight t=10 with lowest error: 1086.101405055408
+For pixelcount:
+    MSE    => vol(x) = -0.002693376935068661 * x + 557.0354821544047
+           => Threshold(5) ... Old(2357.400676907035), New(18.557568820928502)
+    MAX_SE => vol(x) = -0.002693376935068661 * x + 557.0354821544047
+           => Threshold(5) ... Old(3444.9599472611912), New(121.05126693752979)
+For convexhull:
+    MSE    => vol(x) = 0.0009417511557515924 * x + 154.12548872633477
+           => Threshold(45) ... Old(976.6410854056369), New(338.28787946954776)
+    MAX_SE => vol(x) = 0.0009417511557515924 * x + 154.12548872633477
+           => Threshold(45) ... Old(2224.9159656172615), New(788.635539193081)
+For maxheight:
+    MSE    => vol(x) = 4.821896217264802 * x + -29.819612027159007
+           => Threshold(10) ... Old(223.6112424192071), New(192.70247898480437)
+    MAX_SE => vol(x) = 4.821896217264802 * x + -29.819612027159007
+           => Threshold(10) ... Old(1086.101405055408), New(824.1340608033984)
+
+ - White Slides
+Best tag for pixelcount t=15 with lowest error: 2003.901637581078
+Best tag for convexhull t=55 with lowest error: 1970.0530550497779
+Best tag for maxheight t=25 with lowest error: 1678.0025658033273
+Best tag for pixelcount t=15 with lowest error: 4696.484292777264
+Best tag for convexhull t=55 with lowest error: 3097.111921005785
+Best tag for maxheight t=20 with lowest error: 3915.400088919676
+For pixelcount:
+    MSE    => vol(x) = 0.0006094190355479153 * x + 197.58793148807078
+           => Threshold(15) ... Old(2003.901637581078), New(8.15438615743302)
+    MAX_SE => vol(x) = 0.0006094190355479153 * x + 197.58793148807078
+           => Threshold(15) ... Old(4696.484292777264), New(21.50818933337198)
+For convexhull:
+    MSE    => vol(x) = 0.0006365329239109116 * x + 196.79385770120146
+           => Threshold(55) ... Old(1970.0530550497779), New(18.920628152890412)
+    MAX_SE => vol(x) = 0.0006365329239109116 * x + 196.79385770120146
+           => Threshold(55) ... Old(3097.111921005785), New(44.48737437186681)
+For maxheight:
+    MSE    => vol(x) = 1.412301858643626 * x + 187.46900540809344
+           => Threshold(25) ... Old(1678.0025658033273), New(1.3523152193282395)
+    MAX_SE => vol(x) = 1.2547689137474236 * x + 193.68862427632232
+           => Threshold(20) ... Old(3915.400088919676), New(4.265746885347582)
+
+ - Clear Slides
+Best tag for pixelcount t=15 with lowest error: 469.1583317768678
+Best tag for convexhull t=30 with lowest error: 525.3622078422735
+Best tag for maxheight t=25 with lowest error: 1849.8513012142232
+Best tag for pixelcount t=15 with lowest error: 1392.2304081652157
+Best tag for convexhull t=30 with lowest error: 1468.7313115355498
+Best tag for maxheight t=25 with lowest error: 3891.2315684903133
+For pixelcount:
+    MSE    => vol(x) = -0.0007888019740469404 * x + 344.14873844585526
+           => Threshold(15) ... Old(469.1583317768678), New(18.64092209708037)
+    MAX_SE => vol(x) = -0.0007888019740469404 * x + 344.14873844585526
+           => Threshold(15) ... Old(1392.2304081652157), New(88.01965488707927)
+For convexhull:
+    MSE    => vol(x) = -0.0005973534192890718 * x + 320.93715108193885
+           => Threshold(30) ... Old(525.3622078422735), New(27.853552752032773)
+    MAX_SE => vol(x) = -0.0005973534192890718 * x + 320.93715108193885
+           => Threshold(30) ... Old(1468.7313115355498), New(135.55251115507963)
+For maxheight:
+    MSE    => vol(x) = -1.5528704939919904 * x + 332.09934579439266
+           => Threshold(25) ... Old(1849.8513012142232), New(17.90784583889625)
+    MAX_SE => vol(x) = -1.5528704939919904 * x + 332.09934579439266
+           => Threshold(25) ... Old(3891.2315684903133), New(98.1252915620482)

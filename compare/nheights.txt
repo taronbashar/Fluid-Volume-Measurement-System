@@ -1,0 +1,28 @@
+---------- Running Experiment 14 ---------- 
+
+ - Black Slides
+Best tag for nheights t=10 with lowest error: 283.89937430748057
+Best tag for nheights t=10 with lowest error: 1383.8791581717485
+For nheights:
+    MSE    => vol(x) = 4.821896217264778 * x + -24.997715809892387
+           => Threshold(10) ... Old(283.89937430748057), New(192.7024789848043)
+    MAX_SE => vol(x) = 4.821896217264778 * x + -24.997715809892387
+           => Threshold(10) ... Old(1383.8791581717485), New(824.1340608033722)
+
+ - White Slides
+Best tag for nheights t=15 with lowest error: 1745.1198324561326
+Best tag for nheights t=15 with lowest error: 3787.333549099709
+For nheights:
+    MSE    => vol(x) = 1.9427890992403223 * x + 129.3368129747982
+           => Threshold(15) ... Old(1745.1198324561326), New(8.336589227862861)
+    MAX_SE => vol(x) = 1.9427890992403223 * x + 129.3368129747982
+           => Threshold(15) ... Old(3787.333549099709), New(44.83635463549804)
+
+ - Clear Slides
+Best tag for nheights t=25 with lowest error: 2183.721675678676
+Best tag for nheights t=25 with lowest error: 4438.785428254858
+For nheights:
+    MSE    => vol(x) = -1.5528704939919917 * x + 330.54647530040074
+           => Threshold(25) ... Old(2183.721675678676), New(17.9078458388963)
+    MAX_SE => vol(x) = -1.5528704939919917 * x + 330.54647530040074
+           => Threshold(25) ... Old(4438.785428254858), New(98.12529156204876)

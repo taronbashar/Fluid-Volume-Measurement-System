@@ -1,0 +1,89 @@
+ ---------- Running Experiment 14 ---------- 
+
+ - White Slides
+Best tag for pixelcount t=15 with lowest error: 2003.901637581078
+Best tag for convexhull t=60 with lowest error: 1679.2785131219323
+Best tag for maxheight t=25 with lowest error: 1678.0025658033273
+Best tag for nheights_area t=60 with lowest error: 1130.692117701
+Best tag for pixelcount t=15 with lowest error: 4696.484292777264
+Best tag for convexhull t=60 with lowest error: 2856.6300743617717
+Best tag for maxheight t=20 with lowest error: 3915.400088919676
+Best tag for nheights_area t=65 with lowest error: 2371.1571628948955
+For pixelcount:
+    MSE    => vol(x) = 0.0006094190355479152 * x + 197.58793148807084
+           => Threshold(15) ... Old(2003.901637581078), New(8.154386157432961)
+    MAX_SE => vol(x) = 0.0006094190355479152 * x + 197.58793148807084
+           => Threshold(15) ... Old(4696.484292777264), New(21.50818933337198)
+For convexhull:
+    MSE    => vol(x) = 0.0007030261326851475 * x + 190.1459324074357
+           => Threshold(60) ... Old(1679.2785131219323), New(21.086430899284668)
+    MAX_SE => vol(x) = 0.0007030261326851475 * x + 190.1459324074357
+           => Threshold(60) ... Old(2856.6300743617717), New(46.065512410349285)
+For maxheight:
+    MSE    => vol(x) = 1.4123018586436258 * x + 187.46900540809352
+           => Threshold(25) ... Old(1678.0025658033273), New(1.3523152193282129)
+    MAX_SE => vol(x) = 1.2547689137474236 * x + 193.68862427632232
+           => Threshold(20) ... Old(3915.400088919676), New(4.265746885347582)
+For nheights_area:
+    MSE    => vol(x) = 0.0011327907457026455 * x + 187.92509737957403
+           => Threshold(60) ... Old(1130.692117701), New(57.86592968876578)
+    MAX_SE => vol(x) = 0.0010718732322142525 * x + 194.05037648005936
+           => Threshold(65) ... Old(2371.1571628948955), New(136.17906386513818)
+
+ - Black Slides
+Best tag for pixelcount t=5 with lowest error: 2357.400676907035
+Best tag for convexhull t=45 with lowest error: 870.913021871012
+Best tag for maxheight t=10 with lowest error: 223.6112424192071
+Best tag for nheights_area t=50 with lowest error: 436.10328472291496
+Best tag for pixelcount t=5 with lowest error: 3444.9599472611912
+Best tag for convexhull t=45 with lowest error: 1607.2183723848395
+Best tag for maxheight t=10 with lowest error: 1086.101405055408
+Best tag for nheights_area t=50 with lowest error: 1145.7554573518955
+For pixelcount:
+    MSE    => vol(x) = -0.002693376935068662 * x + 557.0354821544048
+           => Threshold(5) ... Old(2357.400676907035), New(18.55756882092845)
+    MAX_SE => vol(x) = -0.002693376935068662 * x + 557.0354821544048
+           => Threshold(5) ... Old(3444.9599472611912), New(121.05126693752854)
+For convexhull:
+    MSE    => vol(x) = 0.0009356590614916368 * x + 151.77235096360286
+           => Threshold(45) ... Old(870.913021871012), New(338.292011874922)
+    MAX_SE => vol(x) = 0.0009356590614916368 * x + 151.77235096360286
+           => Threshold(45) ... Old(1607.2183723848395), New(788.3690042155473)
+For maxheight:
+    MSE    => vol(x) = 4.821896217264794 * x + -29.819612027158417
+           => Threshold(10) ... Old(223.6112424192071), New(192.70247898480451)
+    MAX_SE => vol(x) = 4.821896217264794 * x + -29.819612027158417
+           => Threshold(10) ... Old(1086.101405055408), New(824.1340608033918)
+For nheights_area:
+    MSE    => vol(x) = 0.0019282779820666218 * x + 126.03154895758811
+           => Threshold(50) ... Old(436.10328472291496), New(101.44488175037533)
+    MAX_SE => vol(x) = 0.0019282779820666218 * x + 126.03154895758811
+           => Threshold(50) ... Old(1145.7554573518955), New(362.2578064901341)
+
+ - Clear Slides
+Best tag for pixelcount t=15 with lowest error: 469.1583317768678
+Best tag for convexhull t=35 with lowest error: 485.25256737012637
+Best tag for maxheight t=25 with lowest error: 1849.8513012142232
+Best tag for nheights_area t=55 with lowest error: 221.03824851340556
+Best tag for pixelcount t=15 with lowest error: 1392.2304081652157
+Best tag for convexhull t=35 with lowest error: 1090.7981447040447
+Best tag for maxheight t=25 with lowest error: 3891.2315684903133
+For pixelcount:
+    MSE    => vol(x) = -0.0007888019740469438 * x + 344.1487384458558
+           => Threshold(15) ... Old(469.1583317768678), New(18.640922097080427)
+    MAX_SE => vol(x) = -0.0007888019740469438 * x + 344.1487384458558
+           => Threshold(15) ... Old(1392.2304081652157), New(88.01965488708301)
+For convexhull:
+    MSE    => vol(x) = -0.0006203298425599916 * x + 322.65852843055046
+           => Threshold(35) ... Old(485.25256737012637), New(30.084133555867833)
+    MAX_SE => vol(x) = -0.0006203298425599916 * x + 322.65852843055046
+           => Threshold(35) ... Old(1090.7981447040447), New(131.58007287754458)
+For maxheight:
+    MSE    => vol(x) = -1.5528704939919877 * x + 332.09934579439255
+           => Threshold(25) ... Old(1849.8513012142232), New(17.907845838896332)
+    MAX_SE => vol(x) = -1.5528704939919877 * x + 332.09934579439255
+For nheights_area:
+    MSE    => vol(x) = -0.0013572412280124164 * x + 345.28522834549267
+           => Threshold(55) ... Old(221.03824851340556), New(37.468908242019275)
+    MAX_SE => vol(x) = -0.0014687428151970985 * x + 349.1230886560617
+           => Threshold(60) ... Old(696.0892915034814), New(149.2927303976079)
